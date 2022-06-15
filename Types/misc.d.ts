@@ -30,14 +30,6 @@ export interface DevComponent extends Component {
 	order: number;
 }
 
-export interface MenuItem {
-	badgeCount: number;
-	faIcon: string;
-	name: string;
-	tooltip: string;
-	tooltipPosition: string;
-}
-
 export interface Cheats {
 	GetComponents(amount: number): void;
 	GetMoney(aount: number): void;

@@ -44,6 +44,7 @@ import type { Employee, Workstation } from "./employees";
 import type { Database } from "./database";
 import type { CompetitorProduct, InvestmentProjects, Settings } from "./settings";
 import type { Helpers } from "./helpers";
+import type { Modding } from "./modding";
 
 declare global {
 	/**
@@ -195,8 +196,11 @@ declare global {
 	const CompetitorProducts: Array<CompetitorProduct>;
 	const Helpers: Helpers;
 	const Game: unknown;
-	// eslint-disable-next-line @typescript-eslint/consistent-type-imports
+	const Modding: Modding ;
+	/* eslint-disable @typescript-eslint/consistent-type-imports */
 	const _: typeof import("lodash");
+	const moment: typeof import("moment");
+	/* eslint-enable @typescript-eslint/consistent-type-imports */
 
 	interface ModExports {
 		initialize?(modPath: string): void;

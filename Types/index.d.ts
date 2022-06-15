@@ -2,9 +2,10 @@
 import type { Configuration, Options } from "./options";
 import type { Workstation } from "./employees";
 import type { Controller, Rack } from "./hosting";
-import type { ActiveBuilding, MenuItem, Message } from "./misc";
+import type { ActiveBuilding, Message } from "./misc";
 import type { FinanceData } from "./money";
 import type { Settings } from "./settings";
+import type { MenuItem } from "./modding";
 
 // these are NOT exhaustive, they're just what I've seen so far
 export type View =
@@ -88,5 +89,6 @@ export * from "./settings";
 export * from "./database";
 export * from "./helpers";
 export * from "./misc";
+export * from "./modding";
 export * from "./money";
 export * from "./options";
