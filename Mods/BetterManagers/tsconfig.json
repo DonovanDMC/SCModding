@@ -16,7 +16,7 @@
     "newLine": "lf",
     "strict": true,
     "strictBindCallApply": true,
-    "lib": ["ES2018"], // node 10
+    "lib": ["ES2018", "DOM"], // node 10
     "declaration": false,
     "forceConsistentCasingInFileNames": true,
     "noEmitOnError": true
