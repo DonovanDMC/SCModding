@@ -1,0 +1,30 @@
+{
+  "name": "sc-modding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node --no-warnings --no-deprecation --experimental-specifier-resolution=node --loader ts-node/esm combine-files.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DonovanDMC/SCModding.git"
+  },
+  "author": "Donovan Daniels <hewwo@yiff.rocks>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DonovanDMC/SCModding/issues"
+  },
+  "homepage": "https://github.com/DonovanDMC/SCModding#readme",
+  "dependencies": {
+    "@types/node": "^17.0.42",
+    "@uwu-codes/eslint-config": "^1.0.49",
+    "@uwu-codes/tsconfig": "^1.0.1",
+    "typescript": "^4.7.3"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/lodash": "^4.14.182",
+    "ts-node": "^10.8.1"
+  }
+}
